@@ -1,0 +1,21 @@
+
+h1 {
+	font-size: 1.5rem;
+}
+p {
+	font-size: 1rem;
+}
+.gallery div {
+	width: 25%;
+	display: inline-block;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+@media (orientation: portrait) {
+	h1,
+	p {
+		padding: 0 1.5rem;
+	}
+}

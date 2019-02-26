@@ -1,0 +1,19 @@
+/* reset */
+*{font-size:1em;line-height:1em;text-decoration:none;margin:0;padding:0;box-sizing:border-box}h1,h2,h3,h4,h5,h6{font-weight:400}li,ul{list-style-type:none}table{border-collapse:collapse}
+
+/* app */
+body{
+  font:0 monospace;
+}
+
+@media (orientation:landscape) {
+  html{font-size:3vh}
+  section{
+    width:80vw; 
+    margin:0 auto;
+  }
+}
+
+@media (orientation:portrait){
+  html{font-size:5vw}
+}
